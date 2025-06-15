@@ -19,7 +19,7 @@ The rain sensitivity popup dialog displays a visually inconsistent border radius
 
 ## Proposed Solution
 
-Implement consistent border radius design following the established design principles used by premium brands like Apple:
+Implement consistent border radius design following the established design principles used by premium brands like Apple.
 
 ### Design System Approach
 
