@@ -24,7 +24,7 @@ Example: `/src/issues/2-bluetooth-connection-drops.md`
 ```yaml
 ---
 title: "Issue title here"
-date: "2024-MM-DD"
+date: "2024-12-15T13:20:00Z" # Current date with current time when issue created
 ---
 ```
 
@@ -43,3 +43,7 @@ date: "2024-MM-DD"
 ## Positive Impact of Proposed Solution
 
 [Benefits and improvements that would result from implementing the proposed solution]
+
+## Negative Impact of Proposed Solution
+
+[Drawbacks or potential negative consequences that could result from implementing the proposed solution]
