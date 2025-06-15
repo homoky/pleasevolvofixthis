@@ -17,7 +17,7 @@ The CarPlay interface scaling/zoom level is not optimized for the EX30's display
 
 ## Proposed Solution
 
-Volvo should implement proper CarPlay scaling settings within the integration configuration.
+Implementing proper CarPlay scaling settings within the integration configuration.
 
 This could include:
 
