@@ -16,7 +16,7 @@ const Home = ({ issues }: InferGetStaticPropsType<typeof getStaticProps>) => (
       date={issues[issues.length - 1].date}
     />
     <IssuesList>
-      {issues.map((issue, index) => (
+      {issues.reverse().map((issue, index) => (
         <Issue {...issue} number={index + 1} key={index} />
       ))}
     </IssuesList>
