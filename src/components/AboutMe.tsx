@@ -6,10 +6,14 @@ export const AboutMe = () => (
       <div className="sm:text-lg text-xl leading-relaxed max-w-screen-xl sm:py-4 py-16 space-y-4">
         <p className="font-medium">About me</p>
         <p>
-          I'm Petr, experienced technical product lead and a car enthusiast
-          living in the beautiful Czech Republic. When I'm not working or
-          exploring new technologies, you'll most likely find me in a car - I
-          love cars and enjoy driving.
+          My name is{" "}
+          <a href="https://homoky.cz" className="underline text-[#1C6EBA]">
+            Petr Homoky
+          </a>
+          , experienced technical product lead and a car enthusiast living in
+          the beautiful Czech Republic. When I'm not working or exploring new
+          technologies, you'll most likely find me in a car - I love cars and
+          enjoy driving.
         </p>
         <p>
           I'm not exactly Volvo's typical target audience. I love to squeeze the
