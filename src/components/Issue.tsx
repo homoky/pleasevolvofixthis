@@ -28,7 +28,7 @@ export const Issue = ({ title, number, content, date }: IssueProps) => {
         <div className="block md:flex justify-between md:w-full">
           <div className="text-gray-400 text-sm text-right">#{number}</div>
           <div className="text-gray-400 text-sm text-right">
-            {DateTime.fromISO(date).setLocale('en').toLocaleString(DateTime.DATE_SHORT)}
+            {DateTime.fromISO(date).toFormat("yyyy/MM/dd")}
           </div>
         </div>
       </div>
