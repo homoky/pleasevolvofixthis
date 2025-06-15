@@ -33,8 +33,8 @@ export const Issue = ({ title, number, content, date }: IssueProps) => {
         </div>
       </div>
       {isOpen && (
-        <div className="mt-5 border-t bordert-[#666666] pt-5">
-          <ReactMarkdown>{content}</ReactMarkdown>
+        <div className="mt-5 border-t bordert-[#666666]">
+          <ReactMarkdown className={"issue-content"}>{content}</ReactMarkdown>
         </div>
       )}
     </div>
