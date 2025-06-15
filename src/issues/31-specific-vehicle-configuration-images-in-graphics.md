@@ -13,7 +13,7 @@ The current generic vehicle imagery creates a disconnect between the user's actu
 
 ## Proposed Solution
 
-Volvo should utilize the existing rendered vehicle images from the configurator to display the user's specific vehicle configuration throughout the infotainment system. This includes:
+Utilize the existing rendered vehicle images from the configurator to display the user's specific vehicle configuration throughout the infotainment system. This includes:
 
 - Using the correct exterior color in all vehicle graphics
 - Showing the presence or absence of the sunroof based on the owner's configuration
