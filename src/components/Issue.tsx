@@ -14,7 +14,7 @@ export const Issue = ({ title, number, content, date }: IssueProps) => {
 
   return (
     <div
-      className={`px-6 py-5 rounded-md transition-colors ${
+      className={`md:px-3 md:py-3 px-6 py-5 rounded-md transition-colors ${
         isOpen
           ? "border-2 border-[#1C6EBA]"
           : "border border-[#E0E0E0] hover:border-[#666666]"
