@@ -3,9 +3,7 @@ title: "Custom Steering Wheel Button - Multiple Profiles"
 date: "2025-06-15T15:30:00Z"
 ---
 
-# Custom Steering Wheel Button - Multiple Profiles
-
-## Current Issue
+## Issue Description
 
 Currently, the custom steering wheel button can only be assigned one of three actions, and each action can only be toggled on/off. This is limiting for users who want to control multiple vehicle settings efficiently.
 
