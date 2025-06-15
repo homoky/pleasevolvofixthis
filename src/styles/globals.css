@@ -57,3 +57,9 @@
   color: #1c6eba;
   letter-spacing: 0.025em;
 }
+
+.issue-content img {
+  border: 4px solid #e5e7eb;
+  border-radius: 10px;
+  max-width: 800px;
+}
