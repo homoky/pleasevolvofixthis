@@ -21,8 +21,8 @@ export const Issue = ({ title, number, content, date }: IssueProps) => {
       }`}
       onClick={() => setIsOpen(!isOpen)}
     >
-      <div className="flex gap-3 md:items-start items-center justify-between md:flex-col flex-row">
-        <div className="select-none">
+      <div className="flex gap-3 md:items-start items-center justify-between md:flex-col flex-row select-none">
+        <div>
           <div className="font-medium md:text-lg text-xl">{title}</div>
         </div>
         <div className="block md:flex justify-between md:w-full">
