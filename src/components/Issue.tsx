@@ -14,14 +14,16 @@ export const Issue = ({ title, number, content, date }: IssueProps) => {
 
   return (
     <div
-      className={`px-6 py-5 rounded-md cursor-pointer transition-colors ${
+      className={`px-6 py-5 rounded-md transition-colors ${
         isOpen
           ? "border-2 border-[#1C6EBA]"
           : "border border-[#E0E0E0] hover:border-[#666666]"
       }`}
-      onClick={() => setIsOpen(!isOpen)}
     >
-      <div className="flex gap-3 md:items-start items-center justify-between md:flex-col flex-row select-none">
+      <div
+        className="flex gap-3 md:items-start items-center justify-between md:flex-col flex-row select-none cursor-pointer"
+        onClick={() => setIsOpen(!isOpen)}
+      >
         <div>
           <div className="font-medium md:text-lg text-xl">{title}</div>
         </div>
