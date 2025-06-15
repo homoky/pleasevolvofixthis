@@ -1,5 +1,5 @@
 ---
-title: "iOS Widgets for Vehicle Status and Location"
+title: "iOS Widgets"
 date: "2025-01-15T13:20:00Z"
 ---
 
