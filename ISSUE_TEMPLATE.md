@@ -19,13 +19,15 @@ Example: `/src/issues/2-bluetooth-connection-drops.md`
 - Keep descriptions clear and concise
 - Focus on specific, actionable issues
 - Everything has to be written in english
+- Never start content with h1 (#)
+- To include images, use format: `![Alt text](/issues/image-name.jpeg)`
 
 ## Frontmatter Template
 
 ```yaml
 ---
 title: "Issue title here"
-date: "2024-12-15T13:20:00Z" # Current date with current time when issue created
+date: "{current date in format 2024-12-15T13:20:00Z}"
 ---
 ```
 
