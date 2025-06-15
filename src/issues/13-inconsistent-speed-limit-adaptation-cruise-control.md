@@ -1,6 +1,6 @@
 ---
 title: "Inconsistent Speed Limit Adaptation in Cruise Control"
-date: "2025-01-15T14:45:00Z"
+date: "2025-06-15T14:45:00Z"
 ---
 
 ## Issue Description

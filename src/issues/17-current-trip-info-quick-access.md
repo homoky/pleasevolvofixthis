@@ -1,6 +1,6 @@
 ---
 title: "Current Trip Info Quick Access"
-date: "2025-01-15T10:30:00Z"
+date: "2025-06-15T10:30:00Z"
 ---
 
 ## Issue Description

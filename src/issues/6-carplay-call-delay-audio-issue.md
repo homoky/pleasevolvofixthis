@@ -1,6 +1,6 @@
 ---
 title: "CarPlay Call Delay - Audio Issue During Incoming Calls"
-date: "2025-01-15T13:20:00Z"
+date: "2025-06-15T13:20:00Z"
 ---
 
 ## Issue Description

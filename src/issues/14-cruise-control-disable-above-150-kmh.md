@@ -1,6 +1,6 @@
 ---
 title: "Cruise Control Disables Above 150 km/h During Overtaking"
-date: "2025-01-15T15:30:00Z"
+date: "2025-06-15T15:30:00Z"
 ---
 
 ## Issue Description
