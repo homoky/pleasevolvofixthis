@@ -18,6 +18,7 @@ Example: `/src/issues/2-bluetooth-connection-drops.md`
 - Include screenshots if possible (place in `/public/` folder)
 - Keep descriptions clear and concise
 - Focus on specific, actionable issues
+- Everything has to be written in english
 
 ## Frontmatter Template
 
