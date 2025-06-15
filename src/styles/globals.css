@@ -3,11 +3,12 @@
 @tailwind utilities;
 
 .issue-content p {
+  font-size: 1rem;
   margin-bottom: 16px;
 }
 
 .issue-content a {
-  color: #1C6EBA;
+  color: #1c6eba;
   text-decoration: underline;
 }
 
@@ -40,19 +41,19 @@
 .issue-content h2 {
   margin-top: 24px;
   margin-bottom: 8px;
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 300;
   line-height: 1.3;
-  color: #1C6EBA;
+  color: #1c6eba;
   letter-spacing: 0.025em;
 }
 
 .issue-content h3 {
   margin-top: 20px;
   margin-bottom: 6px;
-  font-size: 1.125rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 300;
   line-height: 1.4;
-  color: #1C6EBA;
+  color: #1c6eba;
   letter-spacing: 0.025em;
 }
