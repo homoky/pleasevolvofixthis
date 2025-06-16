@@ -8,7 +8,7 @@ import { Disclaimer } from "@/components/Disclaimer";
 import { IssuesList } from "@/components/IssuesList";
 import { Issue } from "@/components/Issue";
 
-const Home = ({
+const IssueDetailPage = ({
   issue,
   issues,
   number,
@@ -17,7 +17,7 @@ const Home = ({
 
   return (
     <Page titleTag={`Issue #${number}: ${issue.title} | Please Volvo Fix This`}>
-      <Hero numberOfIssues={issues.length} />
+      <Hero numberOfIssues={issues.length} variant="issue-detail" />
       <IssuesList>
         <Issue {...issue} number={parseInt(number)} isStatic />
       </IssuesList>
@@ -67,4 +67,4 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
   };
 }
 
-export default Home;
+export default IssueDetailPage;
