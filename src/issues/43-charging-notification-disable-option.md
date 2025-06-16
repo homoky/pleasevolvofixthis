@@ -1,6 +1,6 @@
 ---
 title: "Charging Notification Disable Option"
-date: "2025-01-16T00:00:00Z"
+date: "2025-06-16T00:00:00Z"
 ---
 
 ## Issue Description
