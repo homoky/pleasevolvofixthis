@@ -1,6 +1,6 @@
 ---
 title: "Media Pause on Driver Door Open - Optional Setting"
-date: "2025-06-16T15:30:00Z"
+date: "2025-06-15T15:30:00Z"
 ---
 
 ## Issue Description
