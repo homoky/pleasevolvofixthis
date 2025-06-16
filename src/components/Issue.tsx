@@ -2,16 +2,24 @@ import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { DateTime } from "luxon";
 import { pageview } from "@vercel/analytics";
+import { twMerge } from "tailwind-merge";
 
 interface IssueProps {
   title: string;
   content: string;
   number: number;
   date: string;
+  isStatic?: boolean;
 }
 
-export const Issue = ({ title, number, content, date }: IssueProps) => {
-  const [isOpen, setIsOpen] = useState(false);
+export const Issue = ({
+  title,
+  number,
+  content,
+  date,
+  isStatic,
+}: IssueProps) => {
+  const [isOpen, setIsOpen] = useState(isStatic);
 
   return (
     <div
@@ -22,8 +30,15 @@ export const Issue = ({ title, number, content, date }: IssueProps) => {
       }`}
     >
       <div
-        className="flex gap-3 md:items-start items-center justify-between md:flex-col flex-row select-none cursor-pointer"
+        className={twMerge([
+          "flex gap-3 md:items-start items-center justify-between md:flex-col flex-row select-none",
+          !isStatic && "cursor-pointer",
+        ])}
         onClick={() => {
+          if (isStatic) {
+            return;
+          }
+
           if (!isOpen) {
             pageview({
               route: "/issues/[id]",

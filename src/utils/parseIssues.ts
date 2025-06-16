@@ -15,8 +15,8 @@ export function getIssues() {
 
   return fileNames
     .sort((a, b) => {
-      const numA = parseInt(a.split('-')[0]);
-      const numB = parseInt(b.split('-')[0]);
+      const numA = parseInt(a.split("-")[0]);
+      const numB = parseInt(b.split("-")[0]);
       return numB - numA;
     })
     .map((fileName) => getIssue({ fileName }));
@@ -31,5 +31,6 @@ export const getIssue = (args: { fileName: string }) => {
   return {
     ...data,
     content,
+    fileName: args.fileName,
   };
 };
