@@ -21,7 +21,7 @@ export default function Document() {
         <meta property="og:site_name" content="Please Volvo Fix This" />
         <meta property="og:type" content={`og:website`} />
         <meta property="og:title" content="Please Volvo Fix This" />
-        <meta property="og:image" content="/share.png" />
+        <meta property="og:image" content="/share.jpg" />
         <link
           href="https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css"
           rel="stylesheet"
