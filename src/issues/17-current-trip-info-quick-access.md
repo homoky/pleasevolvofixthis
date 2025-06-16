@@ -22,9 +22,9 @@ Add current trip information to the top section of the main interface, or enhanc
 - Distance traveled on current trip
 - Average consumption for the trip
 
-![Current state with new Drive Info button](./issues/17-1.jpeg)
+![Current state with new Drive Info button](/issues/17-1.jpeg)
 
-![What happens when Drive Info is pressed](./issues/17-2.jpeg)
+![What happens when Drive Info is pressed](/issues/17-2.jpeg)
 
 ## Positive Impact of Proposed Solution
 
