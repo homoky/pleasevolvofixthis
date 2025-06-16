@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { DateTime } from "luxon";
+import { track } from "@vercel/analytics";
 
 interface IssueProps {
   title: string;
@@ -22,7 +23,14 @@ export const Issue = ({ title, number, content, date }: IssueProps) => {
     >
       <div
         className="flex gap-3 md:items-start items-center justify-between md:flex-col flex-row select-none cursor-pointer"
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => {
+          if (!isOpen) {
+            track("Opened issue", { title, number });
+            track(`Issue #${number} with title ${title} has been opened`);
+          }
+
+          setIsOpen(!isOpen);
+        }}
       >
         <div>
           <div className="font-medium md:text-lg text-xl">{title}</div>
