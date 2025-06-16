@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { DateTime } from "luxon";
-import { track } from "@vercel/analytics";
+import { pageview } from "@vercel/analytics";
 
 interface IssueProps {
   title: string;
@@ -25,8 +25,10 @@ export const Issue = ({ title, number, content, date }: IssueProps) => {
         className="flex gap-3 md:items-start items-center justify-between md:flex-col flex-row select-none cursor-pointer"
         onClick={() => {
           if (!isOpen) {
-            track("Opened issue", { title, number });
-            track(`Issue #${number} with title ${title} has been opened`);
+            pageview({
+              route: "/issues/[id]",
+              path: `/issues/${number}`,
+            });
           }
 
           setIsOpen(!isOpen);
