@@ -60,8 +60,19 @@ export const Issue = ({
         </div>
       </div>
       {isOpen && (
-        <div className="mt-5 border-t bordert-[#666666]">
+        <div className="mt-5 border-t">
           <ReactMarkdown className={"issue-content"}>{content}</ReactMarkdown>
+          {!isStatic && (
+            <div className="border-t pt-4">
+              <a href={`/issue/${number}`}>
+                Permalink to issue:{" "}
+                <span className="underline text-[#1C6EBA]">
+                  https://www.pleasevolvofixthis.com/issue/
+                  {number}
+                </span>
+              </a>
+            </div>
+          )}
         </div>
       )}
     </div>

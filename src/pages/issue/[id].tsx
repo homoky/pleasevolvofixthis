@@ -16,7 +16,7 @@ const Home = ({
   const router = useRouter();
 
   return (
-    <Page titleTag="Please Volvo Fix This">
+    <Page titleTag={`Issue #${number}: ${issue.title} | Please Volvo Fix This`}>
       <Hero numberOfIssues={issues.length} />
       <IssuesList>
         <Issue {...issue} number={parseInt(number)} isStatic />
