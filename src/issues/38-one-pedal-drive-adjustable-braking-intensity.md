@@ -1,6 +1,6 @@
 ---
 title: "One Pedal Drive - Adjustable Braking Intensity Settings"
-date: "2025-01-15T14:30:00Z"
+date: "2025-06-15T14:30:00Z"
 ---
 
 ## Issue Description

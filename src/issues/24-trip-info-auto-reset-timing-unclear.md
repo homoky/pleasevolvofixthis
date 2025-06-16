@@ -1,6 +1,6 @@
 ---
 title: "Trip Info Auto-Reset Timing Unclear and Inconsistent"
-date: "2025-01-06T12:00:00Z"
+date: "2025-06-15T12:00:00Z"
 ---
 
 ## Issue Description

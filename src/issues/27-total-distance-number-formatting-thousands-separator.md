@@ -1,6 +1,6 @@
 ---
 title: "Total Distance Number Formatting - Missing Thousands Separator"
-date: "2025-01-15T15:30:00Z"
+date: "2025-06-15T15:30:00Z"
 ---
 
 ## Issue Description
