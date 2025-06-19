@@ -21,6 +21,7 @@ Example: `/src/issues/2-bluetooth-connection-drops.md`
 - Everything has to be written in english
 - Never start content with h1 (#)
 - To include images, use format: `![Alt text](/issues/image-name.jpeg)`
+- Available tags are defined in `/src/utils/parseIssues.ts`
 
 ## Frontmatter Template
 
@@ -28,6 +29,9 @@ Example: `/src/issues/2-bluetooth-connection-drops.md`
 ---
 title: "Issue title here"
 date: "{current date in format 2024-12-15T13:20:00Z}"
+type: "{typeTags}"
+priority: "{priorityTags}"
+scope: ["{multipleScopeTags}"]
 ---
 ```
 

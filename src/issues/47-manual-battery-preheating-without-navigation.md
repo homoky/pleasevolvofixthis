@@ -1,6 +1,9 @@
 ---
 title: "Manual Battery Preheating Without Navigation Dependency"
 date: "2025-06-19T12:00:00Z"
+type: "feature"
+priority: "high"
+scope: ["drivetrain", "ux"]
 ---
 
 ## Issue Description
