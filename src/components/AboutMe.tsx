@@ -1,4 +1,5 @@
 import { ContentWrapper } from "./ContentWrapper";
+import { Tag } from "./Tag";
 
 export const AboutMe = () => (
   <div className="bg-[#FAFAFA]">
@@ -42,6 +43,17 @@ export const AboutMe = () => (
           </a>
           . I'd love to help take Volvo's infotainment system to the next level!
         </p>
+        <div className="pt-4">
+          <Tag className="bg-[#FFD429] text-black">Update 2025/06/19</Tag>
+          <p className="mt-4">
+            This project is gaining real traction! Several people from Volvo
+            Cars have reached out privately, asking me to add tags to help them
+            forward issues to the right departments. Meanwhile, I keep adding
+            new issues as I discover them or find them on Reddit and other
+            places, including submissions from the community. Thank you all for
+            the amazing support!
+          </p>
+        </div>
       </div>
     </ContentWrapper>
   </div>
