@@ -39,7 +39,7 @@ const Home = ({ issues }: InferGetStaticPropsType<typeof getStaticProps>) => {
           <Issue {...issue} number={index + 1} key={index} />
         ))}
       </IssuesList>
-      <LastIssueInfo issueNumber={issues.length} date={issues[0].date} />
+      <LastIssueInfo date={issues[issues.length - 1].date} />
       <AboutMe />
       <Disclaimer />
     </Page>
