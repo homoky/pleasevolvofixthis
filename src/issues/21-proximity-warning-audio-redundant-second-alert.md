@@ -1,6 +1,9 @@
 ---
 title: "Proximity Warning Audio - Redundant Second Alert"
 date: "2025-06-15T10:30:00Z"
+type: "bug"
+priority: "high"
+scope: ["safety"]
 ---
 
 ## Issue Description

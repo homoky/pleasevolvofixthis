@@ -1,6 +1,9 @@
 ---
 title: "Trip Info Auto-Reset Timing Unclear and Inconsistent"
 date: "2025-06-15T12:00:00Z"
+type: "bug"
+priority: "medium"
+scope: ["infotainment"]
 ---
 
 ## Issue Description

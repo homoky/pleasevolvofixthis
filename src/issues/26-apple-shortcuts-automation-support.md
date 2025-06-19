@@ -1,6 +1,9 @@
 ---
 title: "Apple Shortcuts and Automation Support for Vehicle Functions"
 date: "2025-06-15T14:30:00Z"
+type: "feature"
+priority: "high"
+scope: ["mobile-app", "connectivity"]
 ---
 
 ## Issue Description

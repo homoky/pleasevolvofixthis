@@ -1,6 +1,9 @@
 ---
 title: "iOS Widgets"
 date: "2025-06-15T13:20:00Z"
+type: "feature"
+priority: "medium"
+scope: ["mobile-app"]
 ---
 
 ## Issue Description

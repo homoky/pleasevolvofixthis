@@ -1,6 +1,9 @@
 ---
 title: "One Pedal Drive - Adjustable Braking Intensity Settings"
 date: "2025-06-15T14:30:00Z"
+type: "enhancement"
+priority: "medium"
+scope: ["drivetrain", "ux"]
 ---
 
 ## Issue Description

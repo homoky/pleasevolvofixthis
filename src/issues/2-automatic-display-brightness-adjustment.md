@@ -1,6 +1,9 @@
 ---
 title: "Automatic Display Brightness Adjustment Based on External Conditions"
 date: "2025-06-15T00:00:00Z"
+type: "feature"
+priority: "high"
+scope: ["infotainment", "safety"]
 ---
 
 ## Issue Description

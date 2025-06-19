@@ -1,6 +1,9 @@
 ---
 title: "Digital Dashboard Font Inconsistency and Formatting Issues"
 date: "2024-12-15T16:30:00Z"
+type: "design"
+priority: "low"
+scope: ["infotainment", "ux"]
 ---
 
 ## Issue Description

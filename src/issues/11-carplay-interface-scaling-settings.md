@@ -1,6 +1,9 @@
 ---
 title: "CarPlay Interface Scaling Settings"
 date: "2025-06-15T13:20:00Z"
+type: "enhancement"
+priority: "critical"
+scope: ["infotainment", "connectivity", "ux"]
 ---
 
 ## Issue Description
@@ -17,7 +20,7 @@ The CarPlay interface scaling/zoom level is not optimized for the EX30's display
 
 ## Proposed Solution
 
-Implementing proper CarPlay scaling settings within the integration configuration.
+Implement proper CarPlay scaling settings within the integration configuration.
 
 This could include:
 

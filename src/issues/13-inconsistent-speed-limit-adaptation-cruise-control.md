@@ -1,6 +1,9 @@
 ---
 title: "Inconsistent Speed Limit Adaptation in Cruise Control"
 date: "2025-06-15T14:45:00Z"
+type: "bug"
+priority: "critical"
+scope: ["safety", "drivetrain"]
 ---
 
 ## Issue Description

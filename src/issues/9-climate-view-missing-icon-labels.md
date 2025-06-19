@@ -1,6 +1,9 @@
 ---
 title: "Climate View - Missing Icon Labels"
 date: "2025-06-15T13:20:00Z"
+type: "design"
+priority: "low"
+scope: ["climate", "ux"]
 ---
 
 ## Issue Description

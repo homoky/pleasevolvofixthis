@@ -1,6 +1,9 @@
 ---
 title: "Side Mirror Reverse Position Settings"
 date: "2025-06-16T00:00:00Z"
+type: "feature"
+priority: "medium"
+scope: ["interior", "safety"]
 ---
 
 ## Issue Description

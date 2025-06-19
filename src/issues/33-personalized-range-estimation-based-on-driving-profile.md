@@ -1,6 +1,9 @@
 ---
 title: "Personalized Range Estimation Based on Driving Profile"
 date: "2025-06-15T14:30:00Z"
+type: "enhancement"
+priority: "critical"
+scope: ["infotainment", "drivetrain"]
 ---
 
 ## Issue Description

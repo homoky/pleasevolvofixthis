@@ -1,6 +1,9 @@
 ---
 title: "Climate Control Off Button Text Size Inconsistency"
 date: "2024-12-15T14:30:00Z"
+type: "design"
+priority: "low"
+scope: ["climate", "infotainment", "ux"]
 ---
 
 ## Issue Description

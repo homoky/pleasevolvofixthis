@@ -1,6 +1,9 @@
 ---
 title: "Custom Steering Wheel Button - Multiple Profiles"
 date: "2025-06-15T15:30:00Z"
+type: "enhancement"
+priority: "medium"
+scope: ["interior", "ux"]
 ---
 
 ## Issue Description
@@ -13,13 +16,13 @@ Implement a "Custom Profiles" system with two configurable profiles:
 
 ### Custom Profiles
 
-- **Single Press**: Activates Custom Profiles 1 (user-configurable combination of settings)
-- **Long Press**: Activates Custom Profiles 2 (alternative user-configurable combination)
+- **Single Press**: Activates Custom Profile 1 (user-configurable combination of settings)
+- **Long Press**: Activates Custom Profile 2 (alternative user-configurable combination)
 - **Subsequent Press**: Deactivates the currently active profile
 
 ### Configurable Settings Per Profile
 
-Each Custom Profiles should allow users to configure combinations of:
+Each Custom Profile should allow users to configure combinations of:
 
 - Steering feel/stiffness
 - Speed limit warning

@@ -1,6 +1,9 @@
 ---
 title: "CarPlay Call Delay - Audio Issue During Incoming Calls"
 date: "2025-06-15T13:20:00Z"
+type: "bug"
+priority: "high"
+scope: ["infotainment", "connectivity"]
 ---
 
 ## Issue Description

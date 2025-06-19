@@ -1,6 +1,9 @@
 ---
 title: "Driver Alert Disable - Remember User Confirmation"
 date: "2025-06-15T13:20:00Z"
+type: "enhancement"
+priority: "high"
+scope: ["safety", "ux"]
 ---
 
 ## Issue Description

@@ -1,6 +1,9 @@
 ---
 title: "Current Trip Info Quick Access"
 date: "2025-06-15T10:30:00Z"
+type: "enhancement"
+priority: "medium"
+scope: ["infotainment", "ux"]
 ---
 
 ## Issue Description

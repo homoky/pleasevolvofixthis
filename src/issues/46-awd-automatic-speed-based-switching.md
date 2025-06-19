@@ -1,6 +1,9 @@
 ---
 title: "AWD Automatic Speed-Based Switching"
 date: "2025-06-16T00:00:00Z"
+type: "feature"
+priority: "medium"
+scope: ["drivetrain"]
 ---
 
 ## Issue Description

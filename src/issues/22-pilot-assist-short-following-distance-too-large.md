@@ -1,6 +1,9 @@
 ---
 title: "Pilot Assist 'Short' Following Distance Still Too Large for Highway Safety"
 date: "2025-06-15T10:30:00Z"
+type: "bug"
+priority: "high"
+scope: ["safety", "drivetrain"]
 ---
 
 ## Issue Description
@@ -9,7 +12,7 @@ The Pilot Assist system offers three time interval settings for following distan
 
 ## Negative Impact of Current Solution
 
-- **Safety hazard**: Other cars constantly merge into the large gap on highways, creating unpredictable and dangerous driving situations
+- **Safety hazard**: Other cars constantly merge into the large gap on highways, creating unpredictable, dangerous driving situations
 - **Counterproductive safety feature**: What is intended as a safety feature actually endangers the driver and passengers by creating dangerous situations when impatient drivers from other vehicles aggressively merge into the large gap
 - **Driver stress**: Continuous merging activity forces the driver to deal with frequent lane changes and traffic disruptions
 - **System ineffectiveness**: The adaptive cruise control becomes less reliable when the following distance is too conservative for real-world highway conditions

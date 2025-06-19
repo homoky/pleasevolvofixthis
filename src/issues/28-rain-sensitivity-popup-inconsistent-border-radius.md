@@ -1,6 +1,9 @@
 ---
 title: "Rain Sensitivity Popup - Inconsistent Border Radius Design"
 date: "2025-06-15T16:00:00Z"
+type: "design"
+priority: "low"
+scope: ["infotainment", "ux"]
 ---
 
 ## Issue Description

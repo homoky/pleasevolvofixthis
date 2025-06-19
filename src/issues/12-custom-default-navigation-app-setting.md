@@ -1,6 +1,9 @@
 ---
 title: "Custom Default Navigation App Setting"
 date: "2025-06-15T14:30:00Z"
+type: "feature"
+priority: "medium"
+scope: ["infotainment", "connectivity"]
 ---
 
 ## Issue Description

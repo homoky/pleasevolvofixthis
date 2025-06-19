@@ -1,6 +1,9 @@
 ---
 title: "Climate Control - Rearview Mirror Heating Control"
 date: "2025-06-15T10:00:00Z"
+type: "feature"
+priority: "high"
+scope: ["climate", "infotainment"]
 ---
 
 ## Issue Description

@@ -1,6 +1,9 @@
 ---
 title: "Direct CarPlay Access from Home Button"
 date: "2025-06-15T13:20:00Z"
+type: "enhancement"
+priority: "low"
+scope: ["infotainment", "ux"]
 ---
 
 ## Issue Description

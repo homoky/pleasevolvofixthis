@@ -1,6 +1,9 @@
 ---
 title: "Specific Vehicle Configuration Images in Graphics"
 date: "2025-06-15T14:30:00Z"
+type: "enhancement"
+priority: "low"
+scope: ["infotainment", "ux"]
 ---
 
 ## Issue Description

@@ -1,6 +1,9 @@
 ---
 title: "Dynamic Driving Modes and Power Management Control"
 date: "2025-06-15T13:00:00Z"
+type: "feature"
+priority: "high"
+scope: ["drivetrain", "safety"]
 ---
 
 ## Issue Description

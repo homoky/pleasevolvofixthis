@@ -1,11 +1,14 @@
 ---
 title: "Automatic CarPlay Reconnection When Phone is Connected"
 date: "2025-06-15T13:20:00Z"
+type: "bug"
+priority: "high"
+scope: ["infotainment", "connectivity"]
 ---
 
 ## Issue Description
 
-When unlocking the car, the phone automatically connects via Bluetooth, but CarPlay does not activate automatically everytime.
+When unlocking the car, the phone automatically connects via Bluetooth, but CarPlay does not activate automatically every time.
 
 Users must manually navigate to Settings → Connectivity → select the connected phone, wait approximately 2 seconds for the CarPlay banner to appear, and then manually activate CarPlay in the phone details section.
 

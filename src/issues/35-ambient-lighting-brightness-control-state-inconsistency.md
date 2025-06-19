@@ -1,6 +1,9 @@
 ---
 title: "Ambient Lighting Brightness Control State Inconsistency"
 date: "2025-06-15T10:30:00Z"
+type: "bug"
+priority: "medium"
+scope: ["interior", "infotainment"]
 ---
 
 ## Issue Description

@@ -1,6 +1,9 @@
 ---
 title: "Proactive Speed Limit Adaptation - Change Speed Before Entering/Leaving Towns"
 date: "2025-06-15T10:30:00Z"
+type: "enhancement"
+priority: "critical"
+scope: ["safety", "drivetrain"]
 ---
 
 ## Issue Description

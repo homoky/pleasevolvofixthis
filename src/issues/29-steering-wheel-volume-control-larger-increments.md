@@ -1,6 +1,9 @@
 ---
 title: "Steering Wheel Volume Control - Larger Increments"
 date: "2025-06-15T12:00:00Z"
+type: "enhancement"
+priority: "medium"
+scope: ["interior", "infotainment"]
 ---
 
 ## Issue Description

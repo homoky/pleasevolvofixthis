@@ -1,6 +1,9 @@
 ---
 title: "Mobile Phone Charging Reminder - Disable Option"
 date: "2025-06-16T13:30:00Z"
+type: "enhancement"
+priority: "medium"
+scope: ["infotainment", "ux"]
 ---
 
 ## Issue Description

@@ -1,6 +1,9 @@
 ---
 title: "Forward Collision Warning 'Early' Setting Still Too Late"
 date: "2025-06-15T10:30:00Z"
+type: "enhancement"
+priority: "critical"
+scope: ["safety"]
 ---
 
 ## Issue Description

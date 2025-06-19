@@ -1,6 +1,9 @@
 ---
 title: "Lower Minimum Brightness Setting for Better Night Driving"
 date: "2025-06-15T00:00:00Z"
+type: "enhancement"
+priority: "high"
+scope: ["infotainment", "safety"]
 ---
 
 ## Issue Description

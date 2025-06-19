@@ -1,6 +1,9 @@
 ---
 title: "Cruise Control Disables Above 150 km/h During Overtaking"
 date: "2025-06-15T15:30:00Z"
+type: "bug"
+priority: "critical"
+scope: ["safety", "drivetrain"]
 ---
 
 ## Issue Description

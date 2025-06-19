@@ -1,6 +1,9 @@
 ---
 title: "Dynamic Steering Assistance Speed-Based Adjustment"
 date: "2025-06-16T13:20:00Z"
+type: "enhancement"
+priority: "low"
+scope: ["drivetrain", "ux"]
 ---
 
 ## Issue Description

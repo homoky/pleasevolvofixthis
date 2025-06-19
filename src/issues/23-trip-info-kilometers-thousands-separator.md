@@ -1,6 +1,9 @@
 ---
 title: "Trip Info Display - Kilometers Should Be Separated by Thousands"
 date: "2025-06-15T10:30:00Z"
+type: "design"
+priority: "low"
+scope: ["infotainment", "ux"]
 ---
 
 ## Issue Description

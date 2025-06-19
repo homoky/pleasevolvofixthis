@@ -1,6 +1,9 @@
 ---
 title: "Garage Door Control via HTTP Integration"
 date: "2025-06-15T14:30:00Z"
+type: "feature"
+priority: "low"
+scope: ["connectivity", "infotainment"]
 ---
 
 ## Issue Description

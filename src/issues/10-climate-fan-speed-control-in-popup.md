@@ -1,6 +1,9 @@
 ---
 title: "Climate Fan Speed Control in Temperature Popup"
 date: "2025-06-15T13:20:00Z"
+type: "enhancement"
+priority: "medium"
+scope: ["climate", "infotainment", "ux"]
 ---
 
 ## Issue Description

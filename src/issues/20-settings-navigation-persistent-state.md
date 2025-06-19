@@ -1,6 +1,9 @@
 ---
 title: "Settings Navigation - Persistent State Navigation"
 date: "2025-06-15T14:30:00Z"
+type: "bug"
+priority: "low"
+scope: ["infotainment", "ux"]
 ---
 
 ## Issue Description
