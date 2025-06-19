@@ -11,12 +11,12 @@ import { LastIssueInfo } from "@/components/LastIssueInfo";
 const Home = ({ issues }: InferGetStaticPropsType<typeof getStaticProps>) => (
   <Page titleTag="Please Volvo Fix This">
     <Hero numberOfIssues={issues.length} variant="homepage" />
-    <LastIssueInfo issueNumber={issues.length} date={issues[0].date} />
     <IssuesList>
       {issues.reverse().map((issue, index) => (
         <Issue {...issue} number={index + 1} key={index} />
       ))}
     </IssuesList>
+    <LastIssueInfo issueNumber={issues.length} date={issues[0].date} />
     <AboutMe />
     <Disclaimer />
   </Page>

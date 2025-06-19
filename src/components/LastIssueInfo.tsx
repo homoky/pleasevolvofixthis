@@ -6,7 +6,7 @@ interface LastIssueInfoProps {
 }
 
 export const LastIssueInfo = ({ issueNumber, date }: LastIssueInfoProps) => (
-  <div className="text-center mt-8 text-sm text-gray-400">
+  <div className="text-center text-sm text-gray-400 mb-8">
     Last issue was reported on {DateTime.fromISO(date).toFormat("yyyy/MM/dd")}.
   </div>
 );
