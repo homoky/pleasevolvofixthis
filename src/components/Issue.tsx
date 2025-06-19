@@ -3,12 +3,18 @@ import ReactMarkdown from "react-markdown";
 import { DateTime } from "luxon";
 import { pageview } from "@vercel/analytics";
 import { twMerge } from "tailwind-merge";
+import { match } from "ts-pattern";
+import { Tag } from "./Tag";
+import { IssueType, IssuePriority, IssueScope } from "@/utils/parseIssues";
 
 interface IssueProps {
   title: string;
   content: string;
   number: number;
   date: string;
+  type: IssueType;
+  priority: IssuePriority;
+  scope: IssueScope[];
   isStatic?: boolean;
 }
 
@@ -17,9 +23,60 @@ export const Issue = ({
   number,
   content,
   date,
+  type,
+  priority,
+  scope,
   isStatic,
 }: IssueProps) => {
   const [isOpen, setIsOpen] = useState(isStatic);
+
+  // Tag label mappings
+  const typeLabels: Record<IssueType, string> = {
+    bug: "Bug",
+    feature: "Feature",
+    enhancement: "Enhancement",
+    design: "Design",
+  };
+
+  const priorityLabels: Record<IssuePriority, string> = {
+    critical: "Critical",
+    high: "High",
+    medium: "Medium",
+    low: "Low",
+  };
+
+  const scopeLabels: Record<IssueScope, string> = {
+    infotainment: "Infotainment",
+    safety: "Safety",
+    drivetrain: "Drivetrain",
+    climate: "Climate",
+    "mobile-app": "Mobile App",
+    connectivity: "Connectivity",
+    interior: "Interior",
+    ux: "UX",
+  };
+
+  const getTypeColor = (type: IssueType) => {
+    return match(type)
+      .with("bug", () => "bg-red-100 text-red-800")
+      .with("feature", () => "bg-green-100 text-green-800")
+      .with("enhancement", () => "bg-blue-100 text-blue-800")
+      .with("design", () => "bg-purple-100 text-purple-800")
+      .exhaustive();
+  };
+
+  const getPriorityColor = (priority: IssuePriority) => {
+    return match(priority)
+      .with("critical", () => "bg-rose-500 text-white")
+      .with("high", () => "bg-orange-100 text-orange-800")
+      .with("medium", () => "bg-yellow-100 text-yellow-800")
+      .with("low", () => "bg-teal-100 text-teal-600")
+      .exhaustive();
+  };
+
+  const getScopeColor = () => {
+    return "bg-gray-100 text-gray-800";
+  };
 
   return (
     <div
@@ -51,6 +108,17 @@ export const Issue = ({
       >
         <div>
           <div className="font-medium md:text-lg text-xl">{title}</div>
+          <div className="flex flex-wrap gap-2 mt-2">
+            <Tag className={getPriorityColor(priority)}>
+              {priorityLabels[priority]}
+            </Tag>
+            <Tag className={getTypeColor(type)}>{typeLabels[type]}</Tag>
+            {scope.map((tagKey) => (
+              <Tag key={tagKey} className={getScopeColor()}>
+                {scopeLabels[tagKey]}
+              </Tag>
+            ))}
+          </div>
         </div>
         <div className="block md:flex justify-between md:w-full">
           <div className="text-gray-400 text-sm text-right">#{number}</div>

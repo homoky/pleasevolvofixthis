@@ -5,10 +5,30 @@ import { z } from "zod";
 
 const issuesDirectory = path.join(process.cwd(), "src", "issues");
 
+const issueTypeEnum = z.enum(["bug", "feature", "enhancement", "design"]);
+const issuePriorityEnum = z.enum(["critical", "high", "medium", "low"]);
+const issueScopeEnum = z.enum([
+  "infotainment",
+  "safety", 
+  "drivetrain",
+  "climate",
+  "mobile-app",
+  "connectivity", 
+  "interior",
+  "ux"
+]);
+
 const issueSchema = z.object({
   title: z.string(),
   date: z.string().datetime(),
+  type: issueTypeEnum,
+  priority: issuePriorityEnum,
+  scope: z.array(issueScopeEnum),
 });
+
+export type IssueType = z.infer<typeof issueTypeEnum>;
+export type IssuePriority = z.infer<typeof issuePriorityEnum>;
+export type IssueScope = z.infer<typeof issueScopeEnum>;
 
 export function getIssues() {
   const fileNames = fs.readdirSync(issuesDirectory);
