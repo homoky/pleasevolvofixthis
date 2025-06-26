@@ -44,9 +44,26 @@ export const AboutMe = () => (
           . I'd love to help take Volvo's infotainment system to the next level!
         </p>
         <div className="pt-4">
-          <Tag className="bg-[#FFD429] text-black">Update 2025/06/23</Tag>
+          <Tag className="bg-[#FFD429] text-black">Update 2025/06/26</Tag>
           <p className="mt-4">
-            Thank you so much for all the emails with feedback and suggestions! I'm gradually implementing those that align with my criteria for bugs or improvements. Some feedback relates to the twin motor variant or Ultra trim level that I don't currently have - I'll incorporate those once my new car arrives, which I expect around July 11th for delivery.
+            Another wave of emails with bug reports from your Volvo cars! I
+            really appreciate you taking the time to share these issues - though
+            as you know, I'm not getting paid by Volvo to do this, so my time is
+            somewhat limited! Just a small request - please check if the issue
+            is already documented here before sending it, as it's quite
+            time-consuming to process duplicates within a reasonable timeframe.
+            Thanks a lot for the momentum, you're awesome!
+          </p>
+        </div>
+        <div className="pt-4">
+          <Tag className="bg-gray-200 text-gray-700">Update 2025/06/23</Tag>
+          <p className="mt-4">
+            Thank you so much for all the emails with feedback and suggestions!
+            I'm gradually implementing those that align with my criteria for
+            bugs or improvements. Some feedback relates to the twin motor
+            variant or Ultra trim level that I don't currently have - I'll
+            incorporate those once my new car arrives, which I expect around
+            July 11th for delivery.
           </p>
         </div>
         <div className="pt-4">
