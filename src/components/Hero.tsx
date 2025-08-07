@@ -29,16 +29,33 @@ export const Hero = ({ numberOfIssues, variant }: HeroProps) => {
           <p>I love ❤️ the car and appreciate 🙏 the innovation behind it.</p>
 
           {variant === "homepage" && (
-            <p>
-              Here are <span className="text-[#1C6EBA]">{numberOfIssues}</span>{" "}
-              improvements 💡 that could make it even better.
-            </p>
+            <>
+              <p>
+                Here are{" "}
+                <span className="text-[#1C6EBA]">{numberOfIssues}</span>{" "}
+                improvements 💡 that could make it even better.
+              </p>
+              <p className="text-base md:text-sm font-normal text-gray-600 max-w-6xl mx-auto">
+                Don't see your issue listed below? Please{" "}
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSesGK4HvbY1Q7QRtsq6FC-FQ68FBJCGXEJhlmxcDP0G61TsGA/viewform?usp=header"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline text-[#1C6EBA] hover:opacity-80"
+                >
+                  submit it via this form
+                </a>{" "}
+                - there's a better chance I'll add it than if you email me.
+              </p>
+            </>
           )}
 
           {variant === "issue-detail" && (
             <p>
-              Here is issue <span className="text-[#1C6EBA]">#{router.query.id}</span> of{" "}
-              <span className="text-[#1C6EBA]">{numberOfIssues}</span> improvements 💡 that could make it better.
+              Here is issue{" "}
+              <span className="text-[#1C6EBA]">#{router.query.id}</span> of{" "}
+              <span className="text-[#1C6EBA]">{numberOfIssues}</span>{" "}
+              improvements 💡 that could make it better.
             </p>
           )}
         </div>
