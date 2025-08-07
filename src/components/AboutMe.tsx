@@ -44,7 +44,22 @@ export const AboutMe = () => (
           . I'd love to help take Volvo's infotainment system to the next level!
         </p>
         <div className="pt-4">
-          <Tag className="bg-[#FFD429] text-black">Update 2025/06/26</Tag>
+          <Tag className="bg-[#FFD429] text-black">Update 2025/08/07</Tag>
+          <p className="mt-4">
+            This initiative has been featured on iDNES.cz, the top news portal in the Czech Republic! I truly appreciate the support and am pleased to have official confirmation from Volvo distribution (mentioned in the article) that they're aware of this website.
+          </p>
+          <p className="mt-4">
+            The coverage has dramatically increased the number of emails I receive with bug reports. Due to capacity constraints, I've added a form link above where you can submit issues. If anyone from Volvo is interested, please reach out - I can forward these reports to you. I don't have the bandwidth to update this list further until I see Volvo actively addressing these issues or until someone from their team contacts me.
+          </p>
+        </div>
+        <div className="pt-4">
+          <Tag className="bg-gray-200 text-gray-700">Update 2025/07/11</Tag>
+          <p className="mt-4">
+            Finally picked up my twin motor EX30! The performance is fantastic, but you quickly get used to it - what's next? Porsche Taycan, perhaps... Porsche might be interested in letting me test their infotainment system, ideally for about 3 years.
+          </p>
+        </div>
+        <div className="pt-4">
+          <Tag className="bg-gray-200 text-gray-700">Update 2025/06/26</Tag>
           <p className="mt-4">
             Another wave of emails with bug reports from your Volvo cars! I
             really appreciate you taking the time to share these issues - though
