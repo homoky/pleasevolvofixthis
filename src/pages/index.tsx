@@ -4,6 +4,7 @@ import { Page } from "@/components/Page";
 import { getIssues } from "@/utils/parseIssues";
 import { Hero } from "@/components/Hero";
 import { AboutMe } from "@/components/AboutMe";
+import { Press } from "@/components/Press";
 import { Disclaimer } from "@/components/Disclaimer";
 import { IssuesList } from "@/components/IssuesList";
 import { Issue } from "@/components/Issue";
@@ -28,6 +29,7 @@ const Home = ({ issues }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <Page titleTag="Please Volvo Fix This">
       <Hero numberOfIssues={issues.length} variant="homepage" />
+      <Press />
 
       <IssuesList>
         <TagFilter
