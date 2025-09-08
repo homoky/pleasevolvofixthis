@@ -8,6 +8,12 @@ const pressItems = [
     imageClassName: "h-20 w-auto",
   },
   {
+    url: "https://www.aktuality.sk/clanok/IydbXqg/petr-kupil-nove-auto-s-52-vadami-vyrobcovi-spisal-navod-ako-ich-opravit-a-media-ho-podporili-reakcia-automobilky-166-podcast-autobazareu/#google_vignette",
+    logo: "/logos/aktualitysk.png",
+    alt: "Aktuality.sk",
+    imageClassName: "h-12 w-auto",
+  },
+  {
     url: "https://pressmob.cz/projekt-pleasevolvofixthis-ukazuje-chyby-v-systemech-volvo-ex30-a-nabizi-reseni",
     logo: "/logos/pressmob.png",
     alt: "Pressmob",
