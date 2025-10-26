@@ -4,6 +4,7 @@ date: "2025-10-26T01:00:00Z"
 type: "feature"
 priority: "high"
 scope: ["drivetrain", "infotainment", "safety"]
+systemVersion: "1.7.1"
 ---
 
 ## Issue Description
