@@ -38,10 +38,10 @@ const Home = ({ issues }: InferGetStaticPropsType<typeof getStaticProps>) => {
         />
 
         {filteredIssues.map((issue, index) => (
-          <Issue {...issue} number={index + 1} key={index} />
+          <Issue {...issue} number={parseInt(issue.fileName.split("-")[0])} key={index} />
         ))}
       </IssuesList>
-      <LastIssueInfo date={issues[issues.length - 1].date} />
+      <LastIssueInfo date={issues[0].date} />
       <AboutMe />
       <Disclaimer />
     </Page>
