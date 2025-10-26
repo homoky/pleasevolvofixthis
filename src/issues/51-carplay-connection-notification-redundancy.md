@@ -4,6 +4,7 @@ date: "2025-06-23T12:00:00Z"
 type: "enhancement"
 priority: "medium"
 scope: ["connectivity", "ux", "infotainment"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

@@ -4,6 +4,7 @@ date: "2025-06-19T14:30:00Z"
 type: "design"
 priority: "medium"
 scope: ["infotainment", "ux"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

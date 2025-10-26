@@ -4,6 +4,7 @@ date: "2025-06-15T15:30:00Z"
 type: "enhancement"
 priority: "medium"
 scope: ["interior", "ux"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

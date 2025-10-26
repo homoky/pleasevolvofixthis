@@ -9,14 +9,15 @@ const issueTypeEnum = z.enum(["bug", "feature", "enhancement", "design"]);
 const issuePriorityEnum = z.enum(["critical", "high", "medium", "low"]);
 const issueScopeEnum = z.enum([
   "infotainment",
-  "safety", 
+  "safety",
   "drivetrain",
   "climate",
   "mobile-app",
-  "connectivity", 
+  "connectivity",
   "interior",
   "ux"
 ]);
+const issueSystemVersionEnum = z.enum(["1.5.3", "1.7.1"]);
 
 const issueSchema = z.object({
   title: z.string(),
@@ -24,11 +25,13 @@ const issueSchema = z.object({
   type: issueTypeEnum,
   priority: issuePriorityEnum,
   scope: z.array(issueScopeEnum),
+  systemVersion: issueSystemVersionEnum,
 });
 
 export type IssueType = z.infer<typeof issueTypeEnum>;
 export type IssuePriority = z.infer<typeof issuePriorityEnum>;
 export type IssueScope = z.infer<typeof issueScopeEnum>;
+export type IssueSystemVersion = z.infer<typeof issueSystemVersionEnum>;
 
 export function getIssues() {
   const fileNames = fs.readdirSync(issuesDirectory);

@@ -4,6 +4,7 @@ date: "2024-12-15T14:30:00Z"
 type: "design"
 priority: "low"
 scope: ["climate", "infotainment", "ux"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

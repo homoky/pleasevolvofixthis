@@ -4,6 +4,7 @@ date: "2025-06-15T00:00:00Z"
 type: "enhancement"
 priority: "high"
 scope: ["infotainment", "safety"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

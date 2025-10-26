@@ -22,6 +22,7 @@ Example: `/src/issues/2-bluetooth-connection-drops.md`
 - Never start content with h1 (#)
 - To include images, use format: `![Alt text](/issues/image-name.jpeg)`
 - Available tags are defined in `/src/utils/parseIssues.ts`
+- **System Version** is mandatory and must be either "1.5.3" or "1.7.1" - indicates which infotainment system version the issue was observed on
 
 ## Frontmatter Template
 
@@ -32,6 +33,7 @@ date: "{current date in format 2024-12-15T13:20:00Z}"
 type: "{typeTags}"
 priority: "{priorityTags}"
 scope: ["{multipleScopeTags}"]
+systemVersion: "1.5.3 or 1.7.1"
 ---
 ```
 

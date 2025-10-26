@@ -4,6 +4,7 @@ date: "2025-06-15T10:00:00Z"
 type: "feature"
 priority: "high"
 scope: ["climate", "infotainment"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

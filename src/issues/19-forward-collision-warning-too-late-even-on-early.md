@@ -4,6 +4,7 @@ date: "2025-06-15T10:30:00Z"
 type: "enhancement"
 priority: "critical"
 scope: ["safety"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

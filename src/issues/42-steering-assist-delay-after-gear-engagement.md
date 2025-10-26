@@ -4,6 +4,7 @@ date: "2025-06-16T13:35:00Z"
 type: "bug"
 priority: "critical"
 scope: ["safety", "drivetrain"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

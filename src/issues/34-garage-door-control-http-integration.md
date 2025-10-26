@@ -4,6 +4,7 @@ date: "2025-06-15T14:30:00Z"
 type: "feature"
 priority: "low"
 scope: ["connectivity", "infotainment"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

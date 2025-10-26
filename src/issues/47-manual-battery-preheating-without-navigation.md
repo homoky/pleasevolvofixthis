@@ -4,6 +4,7 @@ date: "2025-06-19T12:00:00Z"
 type: "feature"
 priority: "high"
 scope: ["drivetrain", "ux"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

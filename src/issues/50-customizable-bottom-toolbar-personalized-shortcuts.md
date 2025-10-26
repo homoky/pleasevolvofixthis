@@ -4,6 +4,7 @@ date: "2025-06-19T15:00:00Z"
 type: "feature"
 priority: "critical"
 scope: ["safety", "infotainment", "ux"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description

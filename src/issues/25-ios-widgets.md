@@ -4,6 +4,7 @@ date: "2025-06-15T13:20:00Z"
 type: "feature"
 priority: "medium"
 scope: ["mobile-app"]
+systemVersion: "1.5.3"
 ---
 
 ## Issue Description
