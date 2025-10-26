@@ -5,7 +5,7 @@ import { pageview } from "@vercel/analytics";
 import { twMerge } from "tailwind-merge";
 import { match } from "ts-pattern";
 import { Tag } from "./Tag";
-import { IssueType, IssuePriority, IssueScope } from "@/utils/parseIssues";
+import { IssueType, IssuePriority, IssueScope, IssueSystemVersion } from "@/utils/parseIssues";
 
 interface IssueProps {
   title: string;
@@ -15,6 +15,7 @@ interface IssueProps {
   type: IssueType;
   priority: IssuePriority;
   scope: IssueScope[];
+  systemVersion: IssueSystemVersion;
   isStatic?: boolean;
 }
 
@@ -26,6 +27,7 @@ export const Issue = ({
   type,
   priority,
   scope,
+  systemVersion,
   isStatic,
 }: IssueProps) => {
   const [isOpen, setIsOpen] = useState(isStatic);
@@ -120,8 +122,13 @@ export const Issue = ({
             ))}
           </div>
         </div>
-        <div className="block md:flex justify-between md:w-full">
-          <div className="text-gray-400 text-sm text-right">#{number}</div>
+        <div className="block md:flex justify-between md:w-full md:items-center">
+          <div className="flex items-center gap-2">
+            <div className="px-2 py-1 rounded bg-gray-100 text-gray-700 text-xs font-medium">
+              v{systemVersion}
+            </div>
+            <div className="text-gray-400 text-sm text-right">#{number}</div>
+          </div>
           <div className="text-gray-400 text-sm text-right">
             {DateTime.fromISO(date).toFormat("yyyy/MM/dd")}
           </div>
