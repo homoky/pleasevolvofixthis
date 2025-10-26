@@ -37,7 +37,7 @@ const Home = ({ issues }: InferGetStaticPropsType<typeof getStaticProps>) => {
           setSelectedTags={setSelectedTags}
         />
 
-        {filteredIssues.reverse().map((issue, index) => (
+        {filteredIssues.map((issue, index) => (
           <Issue {...issue} number={index + 1} key={index} />
         ))}
       </IssuesList>
